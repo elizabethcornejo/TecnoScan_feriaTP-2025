@@ -11,69 +11,93 @@
         href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="static/css/style.css">
+
     <title>TecnoScan</title>
 </head>
 
 <body>
-    <nav>
-        <div class="nav-container">
-            <h1>TecnoScan</h1>
-            <div class="nav-links">
-                <a href="#">Información</a>
-                <a href="#">Quienes Somos</a>
-            </div>
+
+    <nav class="nav-container">
+        <h1>TecnoScan</h1>
+        <div class="barra">
+            <input class="buscar" type="search" placeholder="  Buscar...">
+        </div>
+        <div class="nav-links">
+            <a href="#">Información</a>
+            <a href="#">Quienes Somos</a>
+            <a href="#">Contactanos</a>
         </div>
     </nav>
     <div class="container">
-        <div class="inf-1">
-            <h2>📱¿De que se trata este proyecto?</h2>
-            <br>
-            <div class="text-1">
-                <p>
-                    TecnoScan es un proyecto educativo que utiliza realidad aumentada (RA) para enseñar las partes de un
-                    computador de forma interactiva, visual y moderna.
-
-                    Los estudiantes podrán escanear componentes físicos o imágenes (como una tarjeta RAM o un disco
-                    duro)
-                    con sus celulares o tabletas, y en la pantalla aparecerá información educativa como:
-
-                    El nombre del componente
-
-                    Una descripción animada o textual
-
-                    (Opcional) Consejos sobre cómo mantenerlo o repararlo.</p>
+        <div class="row">
+            <div class="inf">
+                <h2>🧠 ¿Qué es TecnoScan?</h2>
+                <div class="text">
+                    <p>
+                        TecnoScan es un proyecto educativo que utiliza realidad aumentada (RA) para enseñar de forma
+                        interactiva las partes y funciones de un computador.
+                        Mediante un celular o tableta con cámara, el usuario podrá escanear componentes reales o
+                        imágenes
+                        para obtener información digital en pantalla.</p>
+                </div>
             </div>
-        </div>
-        <div class="inf-2">
-            <h2>📜¿Por que este proyecto?</h2>
-            <br>
-            <div class="text-2">
-                <p>
-                    Este proyecto se asocia a la ODS 4, Educación de calidad Garantizar una educación inclusiva,
-                    equitativa y de calidad.
-                    y la ODS 9, Industria, innovación e infraestructura
-                    Construir infraestructuras resilientes, promover la industrialización sostenible y fomentar la
-                    innovación.
-                </p>
+            <div class="inf">
+                <h2>🎯 Objetivo</h2>
+
+                <div class="text">
+                    <p>
+                        Facilitar el aprendizaje tecnológico conectando el mundo físico con información digital,
+                        haciendo
+                        que los estudiantes puedan identificar, comprender y aprender sobre cada pieza de un computador
+                        de
+                        manera visual y atractiva.
+                    </p>
+                </div>
             </div>
-            <div class="text-3">
-                La realidad aumentada muestra contenido digital (como texto o imágenes) sobre el mundo real usando la
-                cámara
-                del celular o tablet.
+            <div class="inf">
+                <h2>🔍 ¿Cómo funciona?</h2>
+                <div class="text">
+                    <p> <strong>Escaneo:</strong> El usuario abre la experiencia RA en su celular/tableta y apunta la
+                        cámara
+                        a un componente
+                        físico o marcador impreso (ej. RAM, disco duro, placa madre).</p>
+                    <p><strong>Reconocimiento:</strong> El sistema detecta el objeto o imagen.</p>
+                    <p><strong>Visualización:</strong> En pantalla aparece:</p>
+                    <p>El nombre del componente.</p>
+                    <p>Una breve descripción de su función.</p>
+                </div>
             </div>
-        </div>
-        <div class="inf-4">
-            <h2>🔍¿En que abarca este proyecto?</h2>
-            <br>
-            <div class="text-4">
-                <p>
-                    Lo que abarca este proyecto es que ayuden con la educación de estudiantes de programación y no solo
-                    a estos si no a gente que lo necesite, a muchos les cuesta aprender los componentes de
-                    un computador, Un estudio entre estudiantes de una universidad médica reveló que, aunque la mayoría
-                    sabía operar un computador, el 25 % no reconocía partes de hardware y el 33 % desconocía el concepto
-                    de software. Solo un 18 % mostró conocimiento excelente sobre componentes como motherboard, memoria
-                    o CD‑ROM.
-                </p>
+            <div class="row-2">
+                <div class="inf">
+                    <h2>📦 Materiales que usamos</h2>
+
+                    <div class="text">
+                        <p>°Dispositivos móviles con cámara (celulares o tabletas).</p>
+                        <p>°Componentes reales de computador o imágenes impresas.</p>
+                        <p>°Marcadores RA (tipo QR o imagen especial).</p>
+                        <p>°Plataforma RA (ZapWorks o CoSpaces Edu).</p>
+                        <p>°Diseños visuales creados en Canva o Photoshop.</p>
+                    </div>
+                </div>
+                <div class="inf">
+                    <h2>✅ Ventajas de TecnoScan</h2>
+
+                    <div class="text">
+                        <p>Aprendizaje visual y práctico.</p>
+                        <p>Aumenta la motivación y curiosidad de los estudiantes.</p>
+                        <p>Fácil de implementar con herramientas gratuitas.</p>
+                        <p>Compatible con materiales que ya tenemos..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
     </div>
