@@ -1,3 +1,11 @@
+/* Reseteo de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* styles.css */
 :root {
     --primary: #2563EB;
@@ -175,7 +183,7 @@ h4 {
 }
 
 .btn.primary {
-    background-color: var(--white);
+    background-color:  #fff;
     color: var(--primary);
 }
 
@@ -227,20 +235,12 @@ h4 {
 .ods-card {
     padding: 5px;
     border-radius: 10px;
-    background-color: #5293dd;
+    background-color: #3489da;
     color: white;
     text-align: center;
     flex: 1;
 }
 
-.ods-card2 {
-    background-color: #1E40AF;
-    padding: 5px;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    flex: 1;
-}
 
 /* Sección Solución */
 .solution-features {
@@ -508,4 +508,9 @@ footer {
     .section {
         padding: 3rem 1.5rem;
     }
+}
+
+.footer-credits a {
+    text-decoration: none;
+    color: #fff;
 }
