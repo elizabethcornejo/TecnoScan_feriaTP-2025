@@ -142,13 +142,13 @@ h4 {
 
 /* Hero */
 .hero {
-    background: linear-gradient(rgba(37, 99, 235, 0.9), rgba(37, 99, 235, 0.9)), url('../img/tech-bg.jpg');
+    background: linear-gradient(rgba(37, 99, 235, 0.9), rgba(37, 99, 235, 0.9)), url('static/images/imagen.png');
     background-size: cover;
     background-position: center;
     color: var(--white);
     padding: 6rem 1.5rem;
     text-align: center;
-}
+}   
 
 .hero-content {
     max-width: 800px;
@@ -182,10 +182,9 @@ h4 {
     text-align: center;
 }
 
-.btn primary {
-    background-color:  #fff;
+.btn.primary {
+    background-color: #fff;
     color: var(--primary);
-    border: none;
 }
 
 .btn.primary:hover {
@@ -514,8 +513,4 @@ footer {
 .footer-credits a {
     text-decoration: none;
     color: #fff;
-}
-
-.botonprimary {
-    border: none;
 }
